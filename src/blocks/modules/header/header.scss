@@ -29,6 +29,7 @@ nav {
 	}
 	&__link:hover {
 		text-decoration: none;
+		color: $main-color;
 	}
 	&__item {
 		border-right: 2px dotted black;

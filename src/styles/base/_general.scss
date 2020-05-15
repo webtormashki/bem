@@ -38,6 +38,37 @@ h1, h2, h3, h4, h5, h6, ul {
 	}
 	
 }
+.social {
+	width: 160px;
+	display: flex;
+	justify-content: space-between;
+	&__item {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0 4px;
+		width: 32px;
+		height: 32px;
+		background-color:$second-color;
+		border-radius: 100%;
+		&_facebook {
+			background: url('../img/svg/Facebook.svg') center center no-repeat;
+		}
+		&_insta {
+			background: url('../img/svg/ig.svg') center center no-repeat;
+		}
+		&_dribble {
+			background: url('../img/svg/drible.svg') center center no-repeat;
+		}
+		&_youtube {
+			background: url('../img/svg/youtube.svg') center center no-repeat;
+		}
+		
+		
+	}
+	
+}
+
 
 .label {
 	position: relative;
