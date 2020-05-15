@@ -1,0 +1,51 @@
+.require {
+	padding: 68px 0 84px 0;
+	&__block {
+		margin: 33px 0;
+	}
+	&__block_nmb {
+		margin-bottom: 0px;
+	}
+	&__title {
+		color: $main-color;
+		font-size: 22px;
+		font-weight: 400;
+	}
+	&__list {
+		list-style-type: none;
+		padding-left: 50px;
+		margin-top: 22px;
+		li {
+			position: relative;
+			font-size: 17px;
+			font-weight: 300;
+			line-height: 24px;
+			margin-bottom: 10px;
+			&:before {
+				content: '';
+				display: block;
+				position: absolute;
+				left: -32px;
+				top: 3px;
+				width: 21px;
+				height: 20px;
+				background: url("../img/svg/check_red.svg") center center/cover no-repeat;
+			}
+		}	
+	}
+	&__descr {
+		margin-top: 25px;
+		font-size: 17px;
+		font-weight: 300;
+		line-height: 24px;
+		color: $second-color;
+	}
+}
+
+.require .warning .require__title {
+	color: #000000;
+}
+
+.require .warning .require__list li:before {
+	background: url("../img/svg/check_pur.svg") center center/cover no-repeat;
+}
