@@ -7,3 +7,4 @@ import "%modules%/choice/choice";
 import "%modules%/require/require";
 import "%modules%/world/world";
 import "%modules%/footer/footer"
+import "%modules%/pageup/pageup"

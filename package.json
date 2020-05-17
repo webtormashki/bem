@@ -69,11 +69,11 @@
     },
     "dependencies": {
         "aos": "^3.0.0-beta.6",
+        "jquery": "^3.5.1",
         "smart-grid": "^2.1.2"
     },
     "husky": {
-        "hooks": {
-        }
+        "hooks": {}
     },
     "lint-staged": {
         "!(_*).scss": [
