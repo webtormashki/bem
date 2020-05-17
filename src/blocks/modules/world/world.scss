@@ -13,10 +13,10 @@
 		font-weight: 400;
 		line-height: 68px;
 		text-transform: uppercase;
-		color: $main-color;
+		color: #fff;
 		&:hover {
 			text-decoration: none;
-			color: #fff;
+			color:$main-color;
 		}
 	}
 }

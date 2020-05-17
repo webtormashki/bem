@@ -1,6 +1,4 @@
 import jQuery from "jquery";
-	// Smooth scroll and pageup
-
 	
 	$(window).scroll(function() {
         if ($(this).scrollTop() > 1600) {

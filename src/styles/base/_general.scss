@@ -26,18 +26,24 @@ h1, h2, h3, h4, h5, h6, ul {
 		background-image: none;
 		background-color: $main-color;
 	}
-	&__subheader {
+	&_small {
 		margin-top: 19px;
 		width: 172px;
 		height: 46px;
 	}
-	&__promo {
+	&_big {
 		margin: 118px auto 0 auto;
 		width: 259px;
-		height: 63px;
+		height: 63px;	
+	}
+	&_animate {
 		animation: pulse;
 		animation-duration: 1s;
 		animation-iteration-count: infinite;
+	}
+	&_mt15{
+		margin: 15px auto 0 auto;
+		width: 300px;
 	}
 	
 }
