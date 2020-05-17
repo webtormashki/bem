@@ -1,7 +1,5 @@
 import jQuery from "jquery";
-	// Smooth scroll and pageup
 
-	
 	$(function(){
 	$("a[href^='#up']").click(function(){
 			var _href = $(this).attr("href");

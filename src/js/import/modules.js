@@ -6,5 +6,7 @@ import "%modules%/mobile/mobile";
 import "%modules%/choice/choice";
 import "%modules%/require/require";
 import "%modules%/world/world";
-import "%modules%/footer/footer"
-import "%modules%/pageup/pageup"
+import "%modules%/footer/footer";
+import "%modules%/pageup/pageup";
+import "%modules%/forms/forms";
+import "%modules%/modal/modal"
