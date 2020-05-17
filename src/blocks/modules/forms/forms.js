@@ -1,5 +1,7 @@
 import jQuery from 'jquery';
 import validate from 'jquery-validation';
+import "jquery.maskedinput/src/jquery.maskedinput";
+
 
 function validateForms(form){
 	$(form).validate({
@@ -31,3 +33,6 @@ function validateForms(form){
 validateForms('#consultation-form');
 validateForms('#consultation form');
 validateForms('#order form');
+
+$('input[name=phone]').mask("+375 (99) 999-99-99");
+
