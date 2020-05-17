@@ -68,11 +68,11 @@
         "yargs": "^13.2.4"
     },
     "dependencies": {
+        "aos": "^3.0.0-beta.6",
         "smart-grid": "^2.1.2"
     },
     "husky": {
         "hooks": {
-            "pre-commit": "lint-staged"
         }
     },
     "lint-staged": {

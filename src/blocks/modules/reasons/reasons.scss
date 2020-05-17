@@ -15,6 +15,12 @@
 		height: 113px;
 		background-color: $main-color;
 		border-radius: 100%;
+		&:hover {
+			img {
+			animation: heartBeat;
+			animation-duration: 2s;
+			}
+		}
 	}
 	&__descr {
 		width: 343px;
