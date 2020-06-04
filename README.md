@@ -1,5 +1,15 @@
 # BEM Project
 
+## Описание
+* Адаптивная верстка (Bootstrap-grid)
+* Aos анимация
+* Модальные окна (jquery)
+* Валидация форм (jquery)
+* Маска телефона (jquery)
+* Плавный скролл (jquery)
+* Menu hamburger (js)
+* Fix header
+
 ## Особенности
 * именование классов по [БЭМ](https://ru.bem.info/)
 * используется БЭМ-структура
@@ -12,5 +22,5 @@
 
 ### Сторонние библиотеки
 * Bootstrap-grid
-* aos анимация блоков
+* aos animation
 * jquery
